@@ -239,7 +239,7 @@ git mv ./src/uncategorized/reLegendaryCow.tw ./src/events
 git mv ./src/uncategorized/reLegendaryEntertainer.tw ./src/events
 git mv ./src/uncategorized/reLegendaryWhore.tw ./src/events
 git mv ./src/uncategorized/reMalefactor.tw ./src/events
-git mv ./src/uncategorized/remFluctuations.tw ./src/events
+git mv ./src/uncategorized/remFluctuations.tw ./src/events/rem
 git mv ./src/uncategorized/reMilfTourist.tw ./src/events
 git mv ./src/uncategorized/remMerger.tw ./src/events/rem
 git mv ./src/uncategorized/remoteSurgery.tw ./src/arcology/interaction
