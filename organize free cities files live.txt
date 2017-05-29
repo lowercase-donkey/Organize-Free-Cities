@@ -9,11 +9,12 @@ mkdir 				 ./src/	events/italicEvents
 mkdir 				 ./src/	events/rem
 mkdir 				 ./src/	events/schools
 mkdir 				 ./src/	events/security
+mkdir 				 ./src/	events/singleEvents
+mkdir 				 ./src/	events/utility
 mkdir 				 ./src/	gui/options
 mkdir 				 ./src/	gui/reports
 mkdir 				 ./src/	npc/assistant
 mkdir 				 ./src/	npc/slaves
-mkdir 				 ./src/	npc/utility
 mkdir 				 ./src/	npc/slaves/assignments
 mkdir 				 ./src/	npc/slaves/descriptions
 mkdir 				 ./src/	npc/slaves/descriptions/particular
@@ -27,6 +28,7 @@ mkdir 				 ./src/	npc/slaves/generate/purchase/markets/schools
 mkdir 				 ./src/	npc/slaves/generate/startingGirls
 mkdir 				 ./src/	npc/slaves/io
 mkdir 				 ./src/	npc/slaves/remove
+mkdir 				 ./src/	npc/utility
 mkdir 				 ./src/	rules
 mkdir 				 ./src/	utility/checks
 mkdir 				 ./src/	utility/line
@@ -45,6 +47,7 @@ git mv 		./src/uncategorized/	arcadeReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	barracks.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	brothel.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	brothelAdvertisement.tw	 ./src/	arcology/facilities
+git mv 		./src/facilities/brothel/	brothelAssignmentScene.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	brothelReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	cellblock.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	cellblockReport.tw	 ./src/	arcology/facilities
@@ -70,7 +73,6 @@ git mv 		./src/uncategorized/	SFMBarracks.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	spa.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	spaReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	toychest.tw	 ./src/	arcology/facilities
-git mv 		./src/facilities/brothel/	brothelAssignmentScene.tw	 ./src/	arcology/facilities/brothel
 git mv 		./src/uncategorized/	apartments.tw	 ./src/	arcology/facilities/NPC
 git mv 		./src/uncategorized/	manufacturing.tw	 ./src/	arcology/facilities/NPC
 git mv 		./src/uncategorized/	markets.tw	 ./src/	arcology/facilities/NPC
@@ -96,114 +98,15 @@ git mv 		./src/uncategorized/	changeLanguage.tw	 ./src/	arcology/policies
 git mv 		./src/uncategorized/	futureSocities.tw	 ./src/	arcology/policies
 git mv 		./src/uncategorized/	policies.tw	 ./src/	arcology/policies
 git mv 		./src/uncategorized/	genericPlotEvents.tw	 ./src/	events
-git mv 		./src/uncategorized/	jeSlaveDispute.tw	 ./src/	events
-git mv 		./src/uncategorized/	nonRandomEvent.tw	 ./src/	events
-git mv 		./src/uncategorized/	pBioreactorPerfected.tw	 ./src/	events
-git mv 		./src/uncategorized/	pBombing.tw	 ./src/	events
-git mv 		./src/uncategorized/	pCitizensAndCivilians.tw	 ./src/	events
-git mv 		./src/uncategorized/	pCollaborationChoice.tw	 ./src/	events
-git mv 		./src/uncategorized/	pCorpAnnouncement.tw	 ./src/	events
-git mv 		./src/uncategorized/	pCoupAftermath.tw	 ./src/	events
-git mv 		./src/uncategorized/	pCoupAttempt.tw	 ./src/	events
-git mv 		./src/uncategorized/	pCoupCollaboration.tw	 ./src/	events
-git mv 		./src/uncategorized/	pCoupLoss.tw	 ./src/	events
-git mv 		./src/uncategorized/	pDefenseFears.tw	 ./src/	events
-git mv 		./src/uncategorized/	peCombatTraining.tw	 ./src/	events
-git mv 		./src/uncategorized/	peConcubineInterview.tw	 ./src/	events
-git mv 		./src/uncategorized/	peHeadgirlConcubine.tw	 ./src/	events
-git mv 		./src/uncategorized/	peLonelyBodyguard.tw	 ./src/	events
-git mv 		./src/uncategorized/	pePitFight.tw	 ./src/	events
-git mv 		./src/uncategorized/	pePitFightInvite.tw	 ./src/	events
 git mv 		./src/uncategorized/	PESS.tw	 ./src/	events
 git mv 		./src/uncategorized/	PETS.tw	 ./src/	events
-git mv 		./src/uncategorized/	pFSAnnouncement.tw	 ./src/	events
-git mv 		./src/uncategorized/	pHackerSupport.tw	 ./src/	events
-git mv 		./src/uncategorized/	pHostageAcquisition.tw	 ./src/	events
-git mv 		./src/uncategorized/	pInvasion.tw	 ./src/	events
-git mv 		./src/uncategorized/	pMercenaries.tw	 ./src/	events
-git mv 		./src/uncategorized/	pMercenaryRomeo.tw	 ./src/	events
-git mv 		./src/uncategorized/	pMercsHelpCorp.tw	 ./src/	events
-git mv 		./src/uncategorized/	pRaidInvitation.tw	 ./src/	events
-git mv 		./src/uncategorized/	pRaidResult.tw	 ./src/	events
-git mv 		./src/uncategorized/	pRivalInitiation.tw	 ./src/	events
-git mv 		./src/uncategorized/	pRivalryActions.tw	 ./src/	events
-git mv 		./src/uncategorized/	pRivalryHostage.tw	 ./src/	events
-git mv 		./src/uncategorized/	pRivalryVictory.tw	 ./src/	events
-git mv 		./src/uncategorized/	pSchoolSuggestion.tw	 ./src/	events
-git mv 		./src/uncategorized/	pSlaveMedic.tw	 ./src/	events
-git mv 		./src/uncategorized/	pSnatchAndGrab.tw	 ./src/	events
-git mv 		./src/uncategorized/	pSnatchAndGrabResult.tw	 ./src/	events
-git mv 		./src/uncategorized/	pTraitorMessage.tw	 ./src/	events
-git mv 		./src/uncategorized/	pUndergroundRailroad.tw	 ./src/	events
-git mv 		./src/uncategorized/	randomEventRoll.tw	 ./src/	events
-git mv 		./src/uncategorized/	randomEventSelect.tw	 ./src/	events
-git mv 		./src/uncategorized/	randomIndividualEvent.tw	 ./src/	events
-git mv 		./src/uncategorized/	randomNonindividualEvent.tw	 ./src/	events
-git mv 		./src/uncategorized/	reAnalPunishment.tw	 ./src/	events
-git mv 		./src/uncategorized/	reBusyArcade.tw	 ./src/	events
-git mv 		./src/uncategorized/	reBusyArcadeWorkaround.tw	 ./src/	events
-git mv 		./src/uncategorized/	reBusyBrothel.tw	 ./src/	events
-git mv 		./src/uncategorized/	reBusyClub.tw	 ./src/	events
-git mv 		./src/uncategorized/	reBusyDairy.tw	 ./src/	events
-git mv 		./src/uncategorized/	reBusyMasterSuite.tw	 ./src/	events
-git mv 		./src/uncategorized/	reBusyServantsQuarters.tw	 ./src/	events
 git mv 		./src/uncategorized/	recETS.tw	 ./src/	events
 git mv 		./src/uncategorized/	recETSWorkaround.tw	 ./src/	events
 git mv 		./src/uncategorized/	RECI.tw	 ./src/	events
-git mv 		./src/uncategorized/	reCitizenHookup.tw	 ./src/	events
-git mv 		./src/uncategorized/	reDevotedMotherDaughter.tw	 ./src/	events
-git mv 		./src/uncategorized/	reDevotedTwins.tw	 ./src/	events
-git mv 		./src/uncategorized/	reDevotees.tw	 ./src/	events
-git mv 		./src/uncategorized/	reFemaleArcologyOwner.tw	 ./src/	events
 git mv 		./src/uncategorized/	REFI.tw	 ./src/	events
-git mv 		./src/uncategorized/	reFormerAbolitionist.tw	 ./src/	events
-git mv 		./src/uncategorized/	reFSAcquisition.tw	 ./src/	events
-git mv 		./src/uncategorized/	reFSEgyptianRevivalistAcquisition.tw	 ./src/	events
-git mv 		./src/uncategorized/	reFSEgyptianRevivalistAcquisitionWorkaround.tw	 ./src/	events
-git mv 		./src/uncategorized/	reFSNonconformist.tw	 ./src/	events
-git mv 		./src/uncategorized/	reFullBed.tw	 ./src/	events
-git mv 		./src/uncategorized/	reHGReplacement.tw	 ./src/	events
-git mv 		./src/uncategorized/	reLegendaryBalls.tw	 ./src/	events
-git mv 		./src/uncategorized/	reLegendaryCow.tw	 ./src/	events
-git mv 		./src/uncategorized/	reLegendaryEntertainer.tw	 ./src/	events
-git mv 		./src/uncategorized/	reLegendaryWhore.tw	 ./src/	events
-git mv 		./src/uncategorized/	reMalefactor.tw	 ./src/	events
-git mv 		./src/uncategorized/	reMilfTourist.tw	 ./src/	events
-git mv 		./src/uncategorized/	reNickname.tw	 ./src/	events
-git mv 		./src/uncategorized/	reNoEvent.tw	 ./src/	events
-git mv 		./src/uncategorized/	reputation.tw	 ./src/	events
-git mv 		./src/uncategorized/	reRebels.tw	 ./src/	events
-git mv 		./src/uncategorized/	reRecruit.tw	 ./src/	events
-git mv 		./src/uncategorized/	reRelationshipAdvice.tw	 ./src/	events
-git mv 		./src/uncategorized/	reRelativeRecruiter.tw	 ./src/	events
-git mv 		./src/uncategorized/	REresistantmotherdaughter.tw	 ./src/	events
-git mv 		./src/uncategorized/	REroyalblood.tw	 ./src/	events
-git mv 		./src/uncategorized/	reShelterInspection.tw	 ./src/	events
-git mv 		./src/uncategorized/	reShippingContainer.tw	 ./src/	events
-git mv 		./src/uncategorized/	reShowerPunishment.tw	 ./src/	events
-git mv 		./src/uncategorized/	reSiblingRevenge.tw	 ./src/	events
-git mv 		./src/uncategorized/	reSlaveMarriage.tw	 ./src/	events
 git mv 		./src/uncategorized/	RESS.tw	 ./src/	events
 git mv 		./src/uncategorized/	RESSTR.tw	 ./src/	events
-git mv 		./src/uncategorized/	reStaffedMorning.tw	 ./src/	events
-git mv 		./src/uncategorized/	reStandardPunishment.tw	 ./src/	events
 git mv 		./src/uncategorized/	RETS.tw	 ./src/	events
-git mv 		./src/uncategorized/	rieEligibilityCheck.tw	 ./src/	events
-git mv 		./src/uncategorized/	scheduledEvent.tw	 ./src/	events
-git mv 		./src/uncategorized/	seBirth.tw	 ./src/	events
-git mv 		./src/uncategorized/	seCoursing.tw	 ./src/	events
-git mv 		./src/uncategorized/	seCustomSlaveDelivery.tw	 ./src/	events
-git mv 		./src/uncategorized/	seExpiration.tw	 ./src/	events
-git mv 		./src/uncategorized/	seIndependenceDay.tw	 ./src/	events
-git mv 		./src/uncategorized/	seLethalPit.tw	 ./src/	events
-git mv 		./src/uncategorized/	seNicaeaAnnouncement.tw	 ./src/	events
-git mv 		./src/uncategorized/	seNicaeaCouncil.tw	 ./src/	events
-git mv 		./src/uncategorized/	seNicaeaPreparation.tw	 ./src/	events
-git mv 		./src/uncategorized/	seNonlethalPit.tw	 ./src/	events
-git mv 		./src/uncategorized/	seRecruiterSuccess.tw	 ./src/	events
-git mv 		./src/uncategorized/	seRetirement.tw	 ./src/	events
-git mv 		./src/uncategorized/	seWedding.tw	 ./src/	events
-git mv 		./src/uncategorized/	tfsFarmUpgrade.tw	 ./src/	events
 git mv 		./src/npc/	acquisition.tw	 ./src/	events/intro
 git mv 		./src/uncategorized/	newGamePlus.tw	 ./src/	events/intro
 git mv 		./src/uncategorized/	useGuard.tw	 ./src/	events/italicEvents
@@ -217,6 +120,105 @@ git mv 		./src/uncategorized/	resSale.tw	 ./src/	events/schools
 git mv 		./src/uncategorized/	securityForceEOWReport.tw	 ./src/	events/security
 git mv 		./src/uncategorized/	securityForceNamingColonel.tw	 ./src/	events/security
 git mv 		./src/uncategorized/	securityForceProposal.tw	 ./src/	events/security
+git mv 		./src/events/	gameover.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	jeSlaveDispute.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pBioreactorPerfected.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pBombing.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pCitizensAndCivilians.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pCollaborationChoice.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pCorpAnnouncement.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pCoupAftermath.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pCoupAttempt.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pCoupCollaboration.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pCoupLoss.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pDefenseFears.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	peCombatTraining.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	peConcubineInterview.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	peHeadgirlConcubine.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	peLonelyBodyguard.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pePitFight.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pePitFightInvite.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pFSAnnouncement.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pHackerSupport.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pHostageAcquisition.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pInvasion.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pMercenaries.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pMercenaryRomeo.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pMercsHelpCorp.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pRaidInvitation.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pRaidResult.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pRivalInitiation.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pRivalryActions.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pRivalryHostage.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pRivalryVictory.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pSchoolSuggestion.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pSlaveMedic.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pSnatchAndGrab.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pSnatchAndGrabResult.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pTraitorMessage.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	pUndergroundRailroad.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reAnalPunishment.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reBusyArcade.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reBusyArcadeWorkaround.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reBusyBrothel.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reBusyClub.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reBusyDairy.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reBusyMasterSuite.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reBusyServantsQuarters.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reCitizenHookup.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reDevotedMotherDaughter.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reDevotedTwins.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reDevotees.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reFemaleArcologyOwner.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reFormerAbolitionist.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reFSAcquisition.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reFSEgyptianRevivalistAcquisition.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reFSEgyptianRevivalistAcquisitionWorkaround.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reFSNonconformist.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reFullBed.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reHGReplacement.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reLegendaryBalls.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reLegendaryCow.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reLegendaryEntertainer.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reLegendaryWhore.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reMalefactor.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reMilfTourist.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reNickname.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reNoEvent.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reRebels.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reRecruit.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reRelationshipAdvice.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reRelativeRecruiter.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	REresistantmotherdaughter.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	REroyalblood.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reShelterInspection.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reShippingContainer.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reShowerPunishment.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reSiblingRevenge.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reSlaveMarriage.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reStaffedMorning.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	reStandardPunishment.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	seBirth.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	seCoursing.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	seCustomSlaveDelivery.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	seExpiration.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	seIndependenceDay.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	seLethalPit.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	seNicaeaAnnouncement.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	seNicaeaCouncil.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	seNicaeaPreparation.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	seNonlethalPit.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	seRecruiterSuccess.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	seRetirement.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	seWedding.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	tfsFarmUpgrade.tw	 ./src/	events/singleEvents
+git mv 		./src/uncategorized/	nonRandomEvent.tw	 ./src/	events/utility
+git mv 		./src/uncategorized/	randomEventRoll.tw	 ./src/	events/utility
+git mv 		./src/uncategorized/	randomEventSelect.tw	 ./src/	events/utility
+git mv 		./src/uncategorized/	randomIndividualEvent.tw	 ./src/	events/utility
+git mv 		./src/uncategorized/	randomNonindividualEvent.tw	 ./src/	events/utility
+git mv 		./src/uncategorized/	rieEligibilityCheck.tw	 ./src/	events/utility
+git mv 		./src/uncategorized/	scheduledEvent.tw	 ./src/	events/utility
 git mv 		./src/uncategorized/	buySlaves.tw	 ./src/	gui
 git mv 		./src/uncategorized/	main.tw	 ./src/	gui
 git mv 		./src/uncategorized/	storyCaption.tw	 ./src/	gui/Encyclopedia
@@ -235,6 +237,7 @@ git mv 		./src/uncategorized/	minorInjuryResponse.tw	 ./src/	gui/reports
 git mv 		./src/uncategorized/	neighborsDevelopment.tw	 ./src/	gui/reports
 git mv 		./src/uncategorized/	neighborsFSAdoption.tw	 ./src/	gui/reports
 git mv 		./src/uncategorized/	persBusiness.tw	 ./src/	gui/reports
+git mv 		./src/uncategorized/	reputation.tw	 ./src/	gui/reports
 git mv 		./src/uncategorized/	rulesAssistantReport.tw	 ./src/	gui/reports
 git mv 		./src/uncategorized/	slaveAssignmentsReport.tw	 ./src/	gui/reports
 git mv 		./src/uncategorized/	assistantEvents.tw	 ./src/	npc/assistant
