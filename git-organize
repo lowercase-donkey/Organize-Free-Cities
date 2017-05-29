@@ -17,6 +17,7 @@ mkdir  ./src/gui/reports
 mkdir  ./src/npc/assistant
 mkdir  ./src/npc/slaves
 mkdir  ./src/npc/slaves/assignments
+mkdir  ./src/npc/slaves/assignments/agent
 mkdir  ./src/npc/slaves/descriptions
 mkdir  ./src/npc/slaves/descriptions/particular
 mkdir  ./src/npc/slaves/descriptions/particular/assignments
