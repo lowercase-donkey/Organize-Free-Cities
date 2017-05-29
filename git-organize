@@ -5,8 +5,9 @@ mkdir  ./src/arcology/facilities
 mkdir  ./src/arcology/facilities/NPC
 mkdir  ./src/arcology/interaction
 mkdir  ./src/arcology/policies
+mkdir  ./src/events/farm
 mkdir  ./src/events/italicEvents
-mkdir  ./src/events/rem
+mkdir  ./src/events/markets
 mkdir  ./src/events/schools
 mkdir  ./src/events/security
 mkdir  ./src/events/singleEvents
@@ -107,12 +108,13 @@ git mv ./src/uncategorized/REFI.tw ./src/events
 git mv ./src/uncategorized/RESS.tw ./src/events
 git mv ./src/uncategorized/RESSTR.tw ./src/events
 git mv ./src/uncategorized/RETS.tw ./src/events
+git mv ./src/uncategorized/tfsFarmUpgrade.tw ./src/events/farm
 git mv ./src/npc/acquisition.tw ./src/events/intro
 git mv ./src/uncategorized/newGamePlus.tw ./src/events/intro
 git mv ./src/uncategorized/useGuard.tw ./src/events/italicEvents
 git mv ./src/uncategorized/walkPast.tw ./src/events/italicEvents
-git mv ./src/uncategorized/remFluctuations.tw ./src/events/rem
-git mv ./src/uncategorized/remMerger.tw ./src/events/rem
+git mv ./src/uncategorized/remFluctuations.tw ./src/events/markets
+git mv ./src/uncategorized/remMerger.tw ./src/events/markets
 git mv ./src/uncategorized/resEndowment.tw ./src/events/schools
 git mv ./src/uncategorized/resFailure.tw ./src/events/schools
 git mv ./src/uncategorized/resMove.tw ./src/events/schools
@@ -211,7 +213,6 @@ git mv ./src/uncategorized/seNonlethalPit.tw ./src/events/singleEvents
 git mv ./src/uncategorized/seRecruiterSuccess.tw ./src/events/singleEvents
 git mv ./src/uncategorized/seRetirement.tw ./src/events/singleEvents
 git mv ./src/uncategorized/seWedding.tw ./src/events/singleEvents
-git mv ./src/uncategorized/tfsFarmUpgrade.tw ./src/events/singleEvents
 git mv ./src/uncategorized/nonRandomEvent.tw ./src/events/utility
 git mv ./src/uncategorized/randomEventRoll.tw ./src/events/utility
 git mv ./src/uncategorized/randomEventSelect.tw ./src/events/utility
@@ -284,10 +285,10 @@ git mv ./src/uncategorized/subordinateTargeting.tw ./src/npc/slaves/assignments
 git mv ./src/uncategorized/wardenessSelect.tw ./src/npc/slaves/assignments
 git mv ./src/uncategorized/wardenessWorkaround.tw ./src/npc/slaves/assignments
 git mv ./src/uncategorized/whoreWorkaround.tw ./src/npc/slaves/assignments
-git mv ./src/npc/agent/agentCompany.twnpc/slaves/assignments/agent
-git mv ./src/npc/agent/agentRetrieve.twnpc/slaves/assignments/agent
-git mv ./src/npc/agent/agentSelect.twnpc/slaves/assignments/agent
-git mv ./src/npc/agent/agentWorkaround.twnpc/slaves/assignments/agent
+git mv ./src/npc/agent/agentCompany.tw ./src/npc/slaves/assignments/agent
+git mv ./src/npc/agent/agentRetrieve.tw ./src/npc/slaves/assignments/agent
+git mv ./src/npc/agent/agentSelect.tw ./src/npc/slaves/assignments/agent
+git mv ./src/npc/agent/agentWorkaround.tw ./src/npc/slaves/assignments/agent
 git mv ./src/uncategorized/longSlaveDescription.tw ./src/npc/slaves/descriptions
 git mv ./src/uncategorized/slaveSummary.tw ./src/npc/slaves/descriptions
 git mv ./src/uncategorized/saChoosesOwnClothes.tw ./src/npc/slaves/descriptions/particular
