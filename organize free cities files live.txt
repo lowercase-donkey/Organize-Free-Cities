@@ -82,7 +82,6 @@ git mv 		./src/uncategorized/	multiImplant.tw	 ./src/	arcology/interaction
 git mv 		./src/uncategorized/	remoteSurgery.tw	 ./src/	arcology/interaction
 git mv 		./src/interaction/	researchLab.tw	 ./src/	arcology/interaction
 git mv 		./src/uncategorized/	salon.tw	 ./src/	arcology/interaction
-git mv 		./src/uncategorized/	slaveInteract.tw	 ./src/	arcology/interaction
 git mv 		./src/uncategorized/	surgeryDegradation.tw	 ./src/	arcology/interaction
 git mv 		./src/uncategorized/	wardrobe.tw	 ./src/	arcology/interaction
 git mv 		./src/uncategorized/	changeLanguage.tw	 ./src/	arcology/policies
@@ -248,6 +247,8 @@ git mv 		./src/uncategorized/	assistantEvents.tw	 ./src/	npc/assistant
 git mv 		./src/uncategorized/	personalAssistantAppearance.tw	 ./src/	npc/assistant
 git mv 		./src/uncategorized/	personalAssistantOptions.tw	 ./src/	npc/assistant
 git mv 		./src/uncategorized/	personalAttentionSelect.tw	 ./src/	npc/assistant
+git mv 		./src/uncategorized/	slaveInteract.tw	 ./src/	npc/slaves
+git mv 		./src/uncategorized/	slaveSummary.tw	 ./src/	npc/slaves
 git mv 		./src/uncategorized/	assign.tw	 ./src/	npc/slaves/assignments
 git mv 		./src/uncategorized/	attendantSelect.tw	 ./src/	npc/slaves/assignments
 git mv 		./src/uncategorized/	attendantWorkaround.tw	 ./src/	npc/slaves/assignments
@@ -293,7 +294,6 @@ git mv 		./src/npc/agent/	agentRetrieve.tw	 ./src/	npc/slaves/assignments/agent
 git mv 		./src/npc/agent/	agentSelect.tw	 ./src/	npc/slaves/assignments/agent
 git mv 		./src/npc/agent/	agentWorkaround.tw	 ./src/	npc/slaves/assignments/agent
 git mv 		./src/uncategorized/	longSlaveDescription.tw	 ./src/	npc/slaves/descriptions
-git mv 		./src/uncategorized/	slaveSummary.tw	 ./src/	npc/slaves/descriptions
 git mv 		./src/uncategorized/	saChoosesOwnClothes.tw	 ./src/	npc/slaves/descriptions/particular
 git mv 		./src/uncategorized/	saDevotion.tw	 ./src/	npc/slaves/descriptions/particular
 git mv 		./src/uncategorized/	saDiet.tw	 ./src/	npc/slaves/descriptions/particular
