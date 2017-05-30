@@ -14,6 +14,7 @@ mkdir 				 ./src/	events/singleEvents
 mkdir 				 ./src/	events/utility
 mkdir 				 ./src/	gui/options
 mkdir 				 ./src/	gui/reports
+mkdir 				 ./src/	gui/reports/facilities
 mkdir 				 ./src/	npc/assistant
 mkdir 				 ./src/	npc/slaves
 mkdir 				 ./src/	npc/slaves/assignments
@@ -45,35 +46,24 @@ git mv 		./src/uncategorized/	neighborDescription.tw	 ./src/	arcology
 git mv 		./src/uncategorized/	neighborInteract.tw	 ./src/	arcology
 git mv 		./src/uncategorized/	officeDescription.tw	 ./src/	arcology
 git mv 		./src/uncategorized/	arcade.tw	 ./src/	arcology/facilities
-git mv 		./src/uncategorized/	arcadeReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	barracks.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	brothel.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	brothelAdvertisement.tw	 ./src/	arcology/facilities
 git mv 		./src/facilities/brothel/	brothelAssignmentScene.tw	 ./src/	arcology/facilities
-git mv 		./src/uncategorized/	brothelReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	cellblock.tw	 ./src/	arcology/facilities
-git mv 		./src/uncategorized/	cellblockReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	clinic.tw	 ./src/	arcology/facilities
-git mv 		./src/uncategorized/	clinicReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	club.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	clubAdvertisement.tw	 ./src/	arcology/facilities
-git mv 		./src/uncategorized/	clubReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	coursingAssociation.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	dairy.tw	 ./src/	arcology/facilities
-git mv 		./src/uncategorized/	dairyReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	headGirlSuite.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	masterSuite.tw	 ./src/	arcology/facilities
-git mv 		./src/uncategorized/	masterSuiteReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	pens.tw	 ./src/	arcology/facilities
-git mv 		./src/uncategorized/	penthouseReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	pit.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	schoolroom.tw	 ./src/	arcology/facilities
-git mv 		./src/uncategorized/	schoolroomReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	servantsQuarters.tw	 ./src/	arcology/facilities
-git mv 		./src/uncategorized/	servantsQuartersReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	SFMBarracks.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	spa.tw	 ./src/	arcology/facilities
-git mv 		./src/uncategorized/	spaReport.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	toychest.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	apartments.tw	 ./src/	arcology/facilities/NPC
 git mv 		./src/uncategorized/	manufacturing.tw	 ./src/	arcology/facilities/NPC
@@ -242,6 +232,17 @@ git mv 		./src/uncategorized/	persBusiness.tw	 ./src/	gui/reports
 git mv 		./src/uncategorized/	reputation.tw	 ./src/	gui/reports
 git mv 		./src/uncategorized/	rulesAssistantReport.tw	 ./src/	gui/reports
 git mv 		./src/uncategorized/	slaveAssignmentsReport.tw	 ./src/	gui/reports
+git mv 		./src/uncategorized/	arcadeReport.tw	 ./src/	gui/reports/facilities
+git mv 		./src/uncategorized/	brothelReport.tw	 ./src/	gui/reports/facilities
+git mv 		./src/uncategorized/	cellblockReport.tw	 ./src/	gui/reports/facilities
+git mv 		./src/uncategorized/	clinicReport.tw	 ./src/	gui/reports/facilities
+git mv 		./src/uncategorized/	clubReport.tw	 ./src/	gui/reports/facilities
+git mv 		./src/uncategorized/	dairyReport.tw	 ./src/	gui/reports/facilities
+git mv 		./src/uncategorized/	masterSuiteReport.tw	 ./src/	gui/reports/facilities
+git mv 		./src/uncategorized/	penthouseReport.tw	 ./src/	gui/reports/facilities
+git mv 		./src/uncategorized/	schoolroomReport.tw	 ./src/	gui/reports/facilities
+git mv 		./src/uncategorized/	servantsQuartersReport.tw	 ./src/	gui/reports/facilities
+git mv 		./src/uncategorized/	spaReport.tw	 ./src/	gui/reports/facilities
 git mv 		./src/uncategorized/	assistantEvents.tw	 ./src/	npc/assistant
 git mv 		./src/uncategorized/	personalAssistantAppearance.tw	 ./src/	npc/assistant
 git mv 		./src/uncategorized/	personalAssistantOptions.tw	 ./src/	npc/assistant
