@@ -63,7 +63,6 @@ git mv 		./src/uncategorized/	schoolroom.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	servantsQuarters.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	SFMBarracks.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	spa.tw	 ./src/	arcology/facilities
-git mv 		./src/uncategorized/	toychest.tw	 ./src/	arcology/facilities
 git mv 		./src/uncategorized/	apartments.tw	 ./src/	arcology/facilities/NPC
 git mv 		./src/uncategorized/	manufacturing.tw	 ./src/	arcology/facilities/NPC
 git mv 		./src/uncategorized/	markets.tw	 ./src/	arcology/facilities/NPC
@@ -101,6 +100,7 @@ git mv 		./src/uncategorized/	RETS.tw	 ./src/	events
 git mv 		./src/uncategorized/	tfsFarmUpgrade.tw	 ./src/	events/farm
 git mv 		./src/npc/	acquisition.tw	 ./src/	events/intro
 git mv 		./src/uncategorized/	newGamePlus.tw	 ./src/	events/intro
+git mv 		./src/uncategorized/	toychest.tw	 ./src/	events/italicEvents
 git mv 		./src/uncategorized/	useGuard.tw	 ./src/	events/italicEvents
 git mv 		./src/uncategorized/	walkPast.tw	 ./src/	events/italicEvents
 git mv 		./src/uncategorized/	remFluctuations.tw	 ./src/	events/markets
