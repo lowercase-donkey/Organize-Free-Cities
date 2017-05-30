@@ -86,6 +86,7 @@ git mv ./src/uncategorized/slaveInteract.tw ./src/arcology/interaction
 git mv ./src/uncategorized/surgeryDegradation.tw ./src/arcology/interaction
 git mv ./src/uncategorized/wardrobe.tw ./src/arcology/interaction
 git mv ./src/uncategorized/changeLanguage.tw ./src/arcology/policies
+git mv ./src/uncategorized/coursingAssociation.tw ./src/arcology/policies
 git mv ./src/uncategorized/futureSocities.tw ./src/arcology/policies
 git mv ./src/uncategorized/policies.tw ./src/arcology/policies
 git mv ./src/uncategorized/genericPlotEvents.tw ./src/events
@@ -112,7 +113,6 @@ git mv ./src/uncategorized/resSale.tw ./src/events/schools
 git mv ./src/uncategorized/securityForceEOWReport.tw ./src/events/security
 git mv ./src/uncategorized/securityForceNamingColonel.tw ./src/events/security
 git mv ./src/uncategorized/securityForceProposal.tw ./src/events/security
-git mv ./src/uncategorized/coursingAssociation.tw ./src/events/singleEvents
 git mv ./src/events/gameover.tw ./src/events/singleEvents
 git mv ./src/uncategorized/jeSlaveDispute.tw ./src/events/singleEvents
 git mv ./src/uncategorized/pBioreactorPerfected.tw ./src/events/singleEvents
