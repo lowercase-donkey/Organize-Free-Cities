@@ -54,7 +54,6 @@ git mv ./src/uncategorized/cellblock.tw ./src/arcology/facilities
 git mv ./src/uncategorized/clinic.tw ./src/arcology/facilities
 git mv ./src/uncategorized/club.tw ./src/arcology/facilities
 git mv ./src/uncategorized/clubAdvertisement.tw ./src/arcology/facilities
-git mv ./src/uncategorized/coursingAssociation.tw ./src/arcology/facilities
 git mv ./src/uncategorized/dairy.tw ./src/arcology/facilities
 git mv ./src/uncategorized/headGirlSuite.tw ./src/arcology/facilities
 git mv ./src/uncategorized/masterSuite.tw ./src/arcology/facilities
@@ -113,6 +112,7 @@ git mv ./src/uncategorized/resSale.tw ./src/events/schools
 git mv ./src/uncategorized/securityForceEOWReport.tw ./src/events/security
 git mv ./src/uncategorized/securityForceNamingColonel.tw ./src/events/security
 git mv ./src/uncategorized/securityForceProposal.tw ./src/events/security
+git mv ./src/uncategorized/coursingAssociation.tw ./src/events/singleEvents
 git mv ./src/events/gameover.tw ./src/events/singleEvents
 git mv ./src/uncategorized/jeSlaveDispute.tw ./src/events/singleEvents
 git mv ./src/uncategorized/pBioreactorPerfected.tw ./src/events/singleEvents
@@ -151,6 +151,7 @@ git mv ./src/uncategorized/pSnatchAndGrabResult.tw ./src/events/singleEvents
 git mv ./src/uncategorized/pTraitorMessage.tw ./src/events/singleEvents
 git mv ./src/uncategorized/pUndergroundRailroad.tw ./src/events/singleEvents
 git mv ./src/uncategorized/reAnalPunishment.tw ./src/events/singleEvents
+git mv ./src/uncategorized/reAWOL.tw ./src/events/singleEvents
 git mv ./src/uncategorized/reBusyArcade.tw ./src/events/singleEvents
 git mv ./src/uncategorized/reBusyArcadeWorkaround.tw ./src/events/singleEvents
 git mv ./src/uncategorized/reBusyBrothel.tw ./src/events/singleEvents
